@@ -13,7 +13,7 @@ app.use('/api', routes);
 app.get('/', (req, res) => {
   res.json({
     success: true,
-    message: '西餐边角料创意系统 API',
+    message: '中式面点边角料创意系统 API',
     version: '1.0.0',
     endpoints: {
       scraps: '/api/scraps',
